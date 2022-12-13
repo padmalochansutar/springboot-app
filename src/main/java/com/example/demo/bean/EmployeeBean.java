@@ -7,5 +7,12 @@ private Integer empId;
 	
 	private Integer age;
 
+	public EmployeeBean(Integer empId, String empName, Integer age) {
+		super();
+		this.empId = empId;
+		this.empName = empName;
+		this.age = age;
+	}
+
 
 }
